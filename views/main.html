@@ -1,0 +1,58 @@
+<div class="wrap" style="background-image:url('./images/landing.jpg')">
+    <div class="top-drawer drawer">
+        <div class="wrap-drawer">
+            <div class="drawer-content width-100 header">
+                <div class="pull-right">
+                    <a href="" ng-click="toggleMenu()" class="handle">
+                        <i class="fa fa-bars" ng-if="!menuShown"></i>
+                        <i class="fa fa-times" ng-if="menuShown"></i>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <h1>SKY</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-drawer drawer">
+        <div class="wrap-drawer margin-20">
+            <div class="drawer-content width-50-1 border-right border-bottom">
+                <a href="#" ui-sref="delivery" class="transport">
+                    <img src="./images/transport.jpg" alt="">
+                </a>
+            </div>
+            <div class="drawer-content width-50-1 border-bottom">
+                <a href="#" ui-sref="list" class="product">
+                    <img src="./images/product.jpg" alt="">
+                </a>
+            </div>
+            <div class="drawer-content width-50-1 border-right">
+                <a href="#" ui-sref="contact" class="contact">
+                    <img src="./images/contact.jpg" alt="">
+                </a>
+            </div>
+            <div class="drawer-content width-50">
+                <a href="#" ui-sref="about" class="information">
+                    <img src="./images/information.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="social-block">
+            <div class="wrap-drawer">
+                <div class="drawer-content width-50">
+                    <div class="text-left">
+                        <p>05555555555555</p>
+                    </div>
+                </div>
+                <div class="drawer-content width-50">
+                    <div class="text-right social-icon">
+                        <i class="fa fa-facebook-square"></i>
+                        <i class="fa fa-twitter-square"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div ng-include src="'/views/menu.html'"></div>

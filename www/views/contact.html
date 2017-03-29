@@ -1,0 +1,42 @@
+<div class="wrap">
+    <div class="top-drawer drawer">
+        <div class="wrap-drawer">
+            <div class="drawer-content width-100 header">
+                <div class="pull-left">
+                    <a href="#" ui-sref="main" class="handle"><i class="fa fa-chevron-left"></i></a>
+                </div>
+                <div class="pull-right">
+                    <a href="" ng-click="toggleMenu()" class="handle">
+                        <i class="fa fa-bars" ng-if="!menuShown"></i>
+                        <i class="fa fa-times" ng-if="menuShown"></i>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <h1>SKY</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="custom-page-content">
+        <img src="./images/contact.jpg" style="display: block; margin: 0 auto 10px">
+
+
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+            book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially
+            unchanged.
+        </p>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+<div ng-include src="'./views/menu.html'"></div>

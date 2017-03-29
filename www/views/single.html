@@ -1,0 +1,64 @@
+<div class="wrap">
+    <div class="header">
+        <div class="pull-left">
+            <a href="#" ui-sref="list" class="handle"><i class="fa fa-chevron-left"></i></a>
+        </div>
+
+        <div class="pull-right">
+            <a href="" ng-click="toggleMenu()" class="handle">
+                <i class="fa fa-bars" ng-if="!menuShown"></i>
+                <i class="fa fa-times" ng-if="menuShown"></i>
+            </a>
+        </div>
+        <div class="text-center">
+            <h1>SKY</h1>
+        </div>
+    </div>
+    <div class="item-details">
+        <form action="">
+            <div class="item-top-drawer">
+                <div class="wrap-drawer">
+                    <div class="drawer-content width-60-1 border-right margin-top-10">
+                        <div class="field-group">
+                            <input type="text" placeholder="Name">
+                            <span class="input-ico input-ico-name"></span>
+                        </div>
+                        <div class="field-group">
+                            <input type="text" placeholder="Location">
+                            <span class="input-ico input-ico-map"></span>
+                        </div>
+                        <div class="field-group">
+                            <input type="text" placeholder="Contact">
+                            <span class="input-ico input-ico-contact"></span>
+                        </div>
+                    </div>
+                    <div class="drawer-content width-40">
+                        <div class="img-thumb-container">
+                            <img src="images/item-1.jpg" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item-middle-drawer">
+                <div class="field-group group-radio">
+                    <label for="">Some <input type="radio" name="something" value="1"></label>
+                    <label for="">Option <input type="radio" name="something" value="2"></label>
+                </div>
+                <div class="field-group">
+                    <input type="text" placeholder="Tag">
+                    <span class="input-ico input-ico-tag"></span>
+                </div>
+            </div>
+            <div class="item-bottom-drawer">
+                <div class="map-container">
+                    <img src="images/map.jpg" class="img-responsive">
+                </div>
+                <div class="action-btn">
+                    <button type="button" class="btn btn-action">Send</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div ng-include src="'./views/menu.html'"></div>

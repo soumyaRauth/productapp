@@ -1,0 +1,25 @@
+{
+  "name": "soudi--service-app-prototype",
+  "authors": [
+    "Mahbub Alam <makjoybd@gmail.com>"
+  ],
+  "description": "\"saudi service app protptype\"",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.3",
+    "angular-ui-router": "ui-router#^0.4.2",
+    "angular-bootstrap": "^2.5.0",
+    "font-awesome": "fontawesome#^4.7.0",
+    "bootstrap": "^3.3.7",
+    "pure": "^0.6.2"
+  }
+}

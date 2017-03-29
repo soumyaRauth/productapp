@@ -1,0 +1,44 @@
+<div class="wrap" style="background-image: url(images/landing_image.jpg)">
+    <div class="top-drawer drawer">
+        <div class="wrap-drawer">
+            <div class="drawer-content width-100 header">
+                <div class="pull-left">
+                    <a href="#" ui-sref="about" class="handle"><i class="fa fa-chevron-left"></i></a>
+                </div>
+                <div class="pull-right">
+                    <a href="" ng-click="toggleMenu()" class="handle">
+                        <i class="fa fa-bars" ng-if="!menuShown"></i>
+                        <i class="fa fa-times" ng-if="menuShown"></i>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <h1>SKY</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-next-content">
+        <iframe width="340" height="300" style=" margin: 10px auto; display: block;" src="https://www.youtube.com/embed/OCWj5xgu5Ng">
+        </iframe>
+
+    </div>
+    <div class="bottom-next">
+
+    </div>
+    <div class="bottom-drawer drawer">
+        <div class="social-block">
+            <div class="wrap-drawer">
+                <div class="drawer-content width-50">
+                    <div class="text-left">
+                        <i class="fa fa-phone"></i>
+                        <i class="fa fa-map-marker"></i>
+                        <i class="fa fa-dropbox"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div ng-include src="'./views/menu.html'"></div>
